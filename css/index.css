@@ -71,6 +71,57 @@ p {
     margin: 0 auto;
 }
 
+/*Header selectors*/
+header {
+    display: flex;
+    flex-direction: column;
+	max-width: 100%;
+    align-content: center;
+    margin-bottom: 20px;
+}
+
+header nav {
+    display: flex;
+    max-width: 100%;
+	align-items: baseline;
+	justify-content: space-between;
+	padding: 20px 5px;
+	margin-bottom: 50px;
+}
+
+nav ul, nav ul li {
+	display: flex;
+	text-align: center;
+}
+
+nav ul {
+	width: 75%;
+	align-items: center
+}
+
+nav ul li {
+	margin-left: 10%;
+}
+
+li a {
+	text-decoration: none;
+	color: #333333;
+	text-align: inherit;
+}
+
+li a:hover {
+	color: #aaaaaa;
+}
+
+.active {
+	color: #666666
+}
+
+.logo {
+	width: 20%;
+}
+
+/*Main selectors*/
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -131,74 +182,7 @@ p {
     padding-right: 0;
 }
 
-footer {
-    width: 100%;
-    background: black;
-}
-
-footer nav {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
-}
-
-footer nav a {
-    color: white;
-    text-decoration: none;
-}
-
-header {
-    display: flex;
-    flex-direction: column;
-	max-width: 100%;
-    align-content: center;
-    margin-bottom: 20px;
-}
-
-header nav {
-    display: flex;
-    max-width: 100%;
-	align-items: baseline;
-	justify-content: space-between;
-	padding: 20px 5px;
-	margin-bottom: 50px;
-}
-
-nav ul, nav ul li {
-	display: flex;
-	text-align: center;
-}
-
-nav ul {
-	width: 75%;
-	align-items: center
-}
-
-nav ul li {
-	margin-left: 10%;
-}
-
-li a {
-	text-decoration: none;
-	color: #333333;
-	text-align: inherit;
-}
-
-li a:hover {
-	color: #aaaaaa;
-}
-
-.active {
-	color: #666666
-}
-
-.logo {
-	width: 20%;
-}
-
+/*Box 1 to Box 10 background color properties and values*/
 .box-1-bg {
     background-color: teal;
 }
@@ -245,7 +229,7 @@ li a:hover {
     border-bottom: 1px dashed black;
 }
 
-.about-middle-content .boxes .box h2 {
+.about-middle-content .boxes .box h3 {
     margin-top: 10px;
 }
 
@@ -260,4 +244,24 @@ li a:hover {
 	padding: 10px 0;
 	font-size: 100%;
 	cursor: pointer;
+}
+
+/*Footer selectors*/
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
 }
