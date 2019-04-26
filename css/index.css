@@ -144,3 +144,52 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+header {
+    display: flex;
+    flex-direction: column;
+	max-width: 100%;
+    align-content: center;
+    margin-bottom: 20px;
+}
+
+header nav {
+    display: flex;
+    max-width: 100%;
+	align-items: baseline;
+	justify-content: space-between;
+	padding: 20px 5px;
+	margin-bottom: 50px;
+}
+
+nav ul, nav ul li {
+	display: flex;
+	text-align: center;
+}
+
+nav ul {
+	width: 75%;
+	align-items: center
+}
+
+nav ul li {
+	margin-left: 10%;
+}
+
+li a {
+	text-decoration: none;
+	color: #333333;
+	text-align: inherit;
+}
+
+li a:hover {
+	color: #aaaaaa;
+}
+
+.active {
+	color: #666666
+}
+
+.logo {
+	width: 20%;
+}
