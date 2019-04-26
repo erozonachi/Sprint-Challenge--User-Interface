@@ -121,6 +121,11 @@ li a:hover {
 	width: 20%;
 }
 
+header > img {
+    max-width: 100%;
+    width: 100%;
+}
+
 /*Main selectors*/
 .top-content {
     display: flex;
@@ -147,7 +152,7 @@ li a:hover {
     border-bottom: 1px dashed black;
 }
 
-.middle-content h2 {
+.middle-content h3 {
     padding: 0 2%;
     margin-bottom: 0;
 }
@@ -264,4 +269,36 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 98%;
+        margin: 0 1%;
+    }
+
+	.top-content {
+        flex-direction: column;
+    }
+    
+    .top-content .text-container {
+        width: 98%;
+    }
+    
+    .middle-content .boxes .box {
+        width: 45%;
+        height: 200px;
+    }
+
+    .bottom-content {
+        flex-wrap: wrap;
+    }
+    
+    .bottom-content .text-container {
+        margin-bottom: 5px;
+    }
+
+    .about-middle-content .boxes .box {
+        width: 95%;
+    }
 }
