@@ -101,7 +101,7 @@ p {
     margin-bottom: 0;
 }
 
-.middle-content .boxes {
+.middle-content .boxes, .about-middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -228,4 +228,36 @@ li a:hover {
 }
 .box-10-bg {
     background-color: dodgerblue;
+}
+
+/*About page specific selector*/
+.about-middle-content {
+    margin-bottom: 20px;
+}
+
+.about-middle-content .boxes .box {
+    width: 45%;
+    margin: 20px 2.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    border-bottom: 1px dashed black;
+}
+
+.about-middle-content .boxes .box h2 {
+    margin-top: 10px;
+}
+
+.about-middle-content .boxes .box p, .about-middle-content .boxes .box button {
+    margin: 10px 0;
+}
+
+.about-middle-content .boxes .box button {
+    width: 40%;
+	border: 2px solid black;
+	border-radius: 4px;
+	padding: 10px 0;
+	font-size: 100%;
+	cursor: pointer;
 }
