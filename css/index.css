@@ -104,7 +104,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -192,4 +191,35 @@ li a:hover {
 
 .logo {
 	width: 20%;
+}
+
+.box-1-bg {
+    background-color: teal;
+}
+.box-2-bg {
+    background-color: gold;
+}
+.box-3-bg {
+    background-color: cadetblue;
+}
+.box-4-bg {
+    background-color: coral;
+}
+.box-5-bg {
+    background-color: crimson;
+}
+.box-6-bg {
+    background-color: forestgreen;
+}
+.box-7-bg {
+    background-color: darkorchid;
+}
+.box-8-bg {
+    background-color: hotpink;
+}
+.box-9-bg {
+    background-color: indigo;
+}
+.box-10-bg {
+    background-color: dodgerblue;
 }
